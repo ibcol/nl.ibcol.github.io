@@ -4237,9 +4237,33 @@ tr.last td {
   width: 60px;
   text-align: center;
 }
+
+.icon.number2 i {
+  font-size: 2rem;
+  padding: 11px;
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
 .icon.how i {
   font-size: 2rem;
 }
+.icon .blueText {
+  color: #0390cf;
+}
+.icon .yellowText {
+  color: #f9c914;
+}
+.icon .blackText {
+  color: #010303;
+}
+.icon .greenText {
+  color: #00ae5a;
+}
+.icon .redText {
+  color: #ef1d29;
+}
+
 .icon i.blue {
   background: #0390cf;
 }
@@ -4304,6 +4328,10 @@ td.minw {
     text-align: center;
   }
   .timeline .time-line {
+    display: none;
+  }
+
+ .time-line2 {
     display: none;
   }
   #cta {

@@ -3,6 +3,8 @@
     border: #000;
 }
 
+
+
 .pageAnchorColor {
     color: #0286CA !important;
 }
@@ -19,6 +21,10 @@
 .centre {
     text-align: center;
 }
+
+/* .textLeft {
+    text-align: left;
+} */
 
 .colorWt {
     color: #fff !important;
@@ -238,10 +244,24 @@
     text-align: center;
 }
 
+.icon .time-line2 {
+    height: 3px;
+    width: 40%;
+    position: absolute;
+    background: lightgrey;
+    top: 68px;
+    right: -36px;
+}
+
+.timeline2 {
+    text-align: left;
+}
+
 .icon.timeline h4 {
     height: fit-content;
     margin-bottom: 0px;
 }
+
 
 .paraTextLineHeight {
     line-height: 22px;
@@ -309,7 +329,7 @@
     /* font-weight: bold; */
     font-size: 14px;
     line-height: 22px;
-    
+
     width: 100%;
     text-align: center;
 }
@@ -383,6 +403,10 @@
     font-size: 18px;
 }
 
+/* .f16Fix {
+    font-size: 16px !important;
+} */
+
 @media only screen and (min-width: 1000px) {
 
     .mediaCol-md-6 {
@@ -418,6 +442,20 @@
 @media only screen and (max-width: 1024px) {
     .col-b-12 {
         width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .icon .time-line2 {
+        height: 3px;
+        width: 49%;
+        position: absolute;
+        background: lightgrey;
+        top: 64px;
+        right: -36px;
+    }
+    .fs15-990 {
+        font-size: 15px !important;
     }
 }
 
@@ -567,7 +605,9 @@
     .btnFixfs {
         font-size: 12px !important;
     }
-}@media only screen and (max-width: 375px) { 
+}
+
+@media only screen and (max-width: 375px) {
     .pl-0-w375 {
         padding-left: 0px;
     }
